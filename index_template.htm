@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>Ratio Archetectis • Home</title>
+		<link rel="stylesheet" type="text/css" href="_css/styles.css">
+			
+	</head>
+	<body>
+
+	<div id="container">
+
+		<header>
+			<div id="masthead">
+			
+			
+			
+			
+				<a href="index.html">
+					<!-- <p class="title"> ratio architectis</p> -->
+					<img src="_images/masthead-new-8.png" height="73" width="244">
+				</a>
+			</div>
+			<div id="shadow"></div>
+		</header>
+
+			<nav>
+				<a href="index.html" class="chosen">HOME</a>
+				<a href="about.html">ABOUT</a>
+				<a href="links.html">LINKS</a>
+				<!-- <a href="contact.html">CONTACT</a> -->
+			</nav>
+
+			<div id="main">
+
+			<article>
+				<h1>External Software</h1>
+						<p class="datetext"> January 21, 2016 </p>
+						<p class="maintext">
+						All external software that's built internally must follow the following naming scheme: 
+						</p>
+
+						<p class="codetext">
+						PACKGE_NAME-SOURCE_RELEASE_VERSION-RPM_VERSION.rp[OS_Base_Release].ARCH.rpm*
+						</p>
+
+
+						<p class="maintext">
+						In this scheme we can expect our internal Python-2.7 package for x64 CentOS-5.x that contains the 2.7.5 upstream release to look like so: 
+						</p>
+
+						<p class="codetext">
+						python27-2.7.5-1.rp5.x86_64.rpm
+						</p>
+
+
+						<p class="maintext">
+						This naming scheme provides us with several powerful pieces of information: The release number of the upstream code we are packaging (2.7.5 in our case) That this software is build by the Rubicon Project and is targeted for CentOS-5.x (as per the .rp5. bit) The code is compiled for x86_64 architecture If we were to recompile the following code, using the same upstream release we would then append a "1" after rp5.  This designates that we used the same source, but modified how we either compiled the code or restructured files contained in the RPM CPIO archive.  For example the first update to our Python-2.7 package would look like so:  
+						</p>
+
+						<p class="codetext">
+						python27-2.7.5-1.rp5.1.x86_64.rpm *
+						</p>
+
+
+						<p class="maintext">
+						This naming scheme for versioning and release numbers should work in most cases, however sometimes when adding the .rp5 flag to a package that formerly did not may not be parsed correctly by RPM. If this happens, it is best to set an "Epoch: [number]" before the Version and Release numbers. More information on spec file versioning bestpractices can be found here: http://fedoraproject.org/wiki/Packaging:NamingGuidelines#   Package_Versioning
+						</p>
+						<!-- <img src="_images/W06B21BK.gif"> -->
+					<div class="rule"></div>
+			</article>
+
+				
+
+			<article>
+				<h1>Another Blog Post Title Here</h1>
+					
+					<p class="datetext"> January 28, 2016 
+					</p>
+						<img src="_images/IMG_20150912_063147.jpg" height="330" width="550">
+					<p class="caption"> Caption here Caption here Caption here Caption here Caption here Caption here Caption here Caption here Caption here Caption here Caption here Caption here Caption here.
+					</p>
+					<p class="maintext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+					</p>
+
+					  <ol>• velit esse cillum dolore eu fugiat </ol>
+					  <ol>• nulla pariatur. Excepteur sint occaecat cupidatat</ol>
+					  <ol>• non proident, sunt in culpa qui officia</ol>
+
+					<p class="maintext">deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+				<div class="rule"></div>
+					
+			</article>
+
+
+			<!-- <div> <img class="jump" src="_images/arrow_jump.svg" height="175" width="175"></div> -->
+
+			
+			</div>
+
+			<div id="sidebar">
+				<p class="sidehed">
+				RECENT POSTS
+				</p>
+				<p class="sidetext"> <a href="#">
+				Post title here tk tk post</a>
+				</p>
+				<p class="sidetext"> <a href="#">
+				Post title here tk tk post</a>
+				</p>
+				<p class="sidetext"> <a href="#">
+				Post title here tk tk post</a>
+				</p>
+				<p class="sidetext"> <a href="#">
+				Post title here tk tk post</a>
+				</p>
+				<p class="sidetext"> <a href="#">
+				Post title here tk tk post</a>
+				</p>
+
+				<a href="mailto:nomadlogic@gmail.com">
+					<img class="button" src="_images/images/social_butttons_11.png" height="45" width="39">
+				</a>
+				<a href="http://www.twitter.com" target="_blank">
+					<img class="button" src="_images/images/social_butttons_13.png" height="45" width="50">
+				</a>
+				<a href="http://www.linkedin.com" target="_blank">
+					<img class="button" src="_images/images/social_butttons_15.png" height="45" width="50">
+				</a>
+			</div>
+				<div id="space"></div>
+
+
+			<footer>&copy; 2016 Pete Wright 
+				<!-- <span class="icon-mail"><a href="#"></a></span>
+				<span class="icon-twitter2"><a href="#"></a></span> -->
+			</footer>
+		</div>
+
+			<script type="text/javascript" src="_js/jquery-1.11.3.min.js"></script>
+			<script type="text/javascript" src="_js/scripts.js"></script>
+
+
+
+	</body>
+</html>
