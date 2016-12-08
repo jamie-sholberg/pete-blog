@@ -732,12 +732,15 @@ article .rule {
 	/*position: absolute;
 	top: 9em;
 	right: 0em;*/
-}
+	}
 
-#socialMobile {font-size: 2em; 
+#socialMobile {
+	font-size: 2em; 
 	color: #797979;
-	text-align: center;  }
+	text-align: center;  
+	}
 
+#sidebar {display: none;}
 
 .sidehed {
 	font-family: 'open_sansregular', arial, sans-serif;
@@ -803,8 +806,7 @@ article .rule {
 
 	/*margin-right: auto;
 	margin-left: auto;*/
-	font-size: 2em; 
-	color: #797979;
+	display: none;
 	}
 
 a.icon-mail {padding-right: 10px;}
