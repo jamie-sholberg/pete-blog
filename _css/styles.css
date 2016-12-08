@@ -112,7 +112,7 @@
 body {
 	background-color: #2F2F2F;
 	font-size: 100%;
-	margin: 0%;}
+	margin: 0;}
 
 #container {
 	background-color: #fff;
@@ -721,18 +721,14 @@ article .rule {
 	font-family: "futura-pt",sans-serif;
 	font-size: 0.875em;
 	line-height: 1.5em;
-
 	text-align: center;
-	
 	color: #000;
 	width: 100%;
-	/*padding-right: 1em;*/
-	/*min-height: 300px;*/
+	
 	background-color: #fff;
-	/*position: absolute;
-	top: 9em;
-	right: 0em;*/
 	}
+
+#social {display: none;}
 
 #socialMobile {
 	font-size: 2em; 
@@ -744,30 +740,19 @@ article .rule {
 
 .sidehed {
 	font-family: 'open_sansregular', arial, sans-serif;
-	/*margin-top: 40px;*/
-	/*background-color: #fff;*/
 	text-decoration: none;
 	}
 
-.sidetext {
-	font-family: 'open_sansregular', arial, sans-serif;
-	/*color: #000;*/
-	/*margin-left: 10px;*/
-	/*width: 95%;*/
-	}
+.sidetext {font-family: 'open_sansregular', arial, sans-serif;}
 
-.sidetext a {
-	color: #000;
-	}
+.sidetext a {color: #000;}
 
 .sidetext a:hover {
 	color: #C6BBC6;
 	text-decoration: underline;
 	}
 
-.sidetext:visited {
-	color: #414C53;
-}
+.sidetext:visited {color: #414C53;}
 
 /*.icon-mail {
     font-size: 1.5em;
@@ -800,10 +785,6 @@ article .rule {
     content: "\e600";
 }*/
 
-#social { 
-
-	display: none;
-	}
 
 a.icon-mail {padding-right: 10px;}
 a.icon-twitter2 {padding-right: 10px;}
@@ -901,7 +882,6 @@ img .bio {
 #space {
 	width: 100%;
 	height: 5em;
-	/*background-color: #fff;*/
 	}
 
 footer {
@@ -913,3 +893,4 @@ footer {
 	padding-bottom: 3em;
 	font-family: 'open_sansregular', arial, sans-serif;}
 	}
+
