@@ -171,10 +171,6 @@ nav a {
 	}
 
 nav a:hover {
-	/*color: #fff;
-	background-color: #008D00;
-	padding: 10px 10px 10px 10px;*/	
-	/*color: #008D00;*/
 	text-decoration: underline;
 	color: #fff;
 	}
@@ -184,8 +180,6 @@ nav a.chosen {
 	text-decoration: underline;}
 
 #main { 
-	/*font-size: 0.875em;
-	line-height: 2em;*/
 	background-color: #fff;
 	min-height: 60em;
 	width: 71%;
@@ -205,13 +199,14 @@ article {
 	}
 
 pre {
+	word-break: all;
     display: block;
     line-height: 1.8em;
     font-family: 'klartext_monolight', monospace;
     /*white-space: pre;*/
     /*margin: 1em 0;*/
     background-color: #eee;
-	/*padding: 2em 2em 2em 2em;*/
+
 	padding-left: 2em;
 	width: 90%
 	}
