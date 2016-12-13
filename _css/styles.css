@@ -641,13 +641,17 @@ nav a.chosen {
 #main { 
 	/*font-size: 0.875em;
 	line-height: 2em;*/
-	background-color: #fff;
+	/*background-color: #fff;
 	min-height: 60em;
-	width: 100%;	
+	width: 100%;*/	
 	/*border-right: solid 1px;*/
 	}
 
 article {
+	background-color: #fff;
+	min-height: 60em;
+	/*width: 100%;*/
+	
 	font-size: 0.875em;
 	line-height: 2em;
 	width: 90%;
