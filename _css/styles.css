@@ -437,10 +437,10 @@ img .bio {
 
 footer {
 	text-align: center;
-	background-color: #2F2F2F;
+	background-color: #000;
 
 	font-size: .8em;
-	color: #C0C0C0;
+	color: #eee;
 	padding-top: 1em;
 	padding-bottom: 3em;
 	font-family: 'open_sansregular', arial, sans-serif;}
@@ -572,10 +572,9 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	/*margin-bottom: .8em;*/
-
 	/*width: 960px;*/
 	/*max-width: 960px;*/
-	min-height: 550px;
+	/*min-height: 550px;*/
 	width: 100%;
 	/*height: 100%;*/
 	position: relative;	
@@ -642,7 +641,7 @@ nav a.chosen {
 	/*font-size: 0.875em;
 	line-height: 2em;*/
 	background-color: #fff;
-	min-height: 60em;
+	/*min-height: 60em;*/
 	width: 100%;	
 	/*border-right: solid 1px;*/
 	}
@@ -650,9 +649,9 @@ nav a.chosen {
 article {
 	font-size: 0.875em;
 	line-height: 2em;
-	width: 90%;
-	padding-left: 5em;
-	padding-right: 5em;
+	width: 80%;
+	/*padding-left: 5em;*/
+	/*padding-right: 5em;*/
 	font-family: 'open_sansregular', arial, sans-serif;
 	/*color: #000;*/
 	}
@@ -667,7 +666,7 @@ pre {
     background-color: #eee;
 	/*padding: 2em 2em 2em 2em;*/
 	padding-left: 2em;
-	width: 80%
+	width: 100%
 	}
 
 /*.codetext {
@@ -881,10 +880,10 @@ img .bio {
 	}
 
 footer {
-	background-color: #2F2F2F;
+	background-color: #000;
 	text-align: center;
 	font-size: .8em;
-	color: #C0C0C0;
+	color: #eee;
 	padding-top: 1em;
 	padding-bottom: 3em;
 	font-family: 'open_sansregular', arial, sans-serif;}
