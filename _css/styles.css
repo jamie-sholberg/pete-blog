@@ -563,7 +563,7 @@ footer {
     }
 
 body {
-	background-color: #2F2F2F;
+	background-color: #000;
 	font-size: 100%;
 	margin: 0;}
 
@@ -571,7 +571,7 @@ body {
 	background-color: #fff;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: .8em;
+	/*margin-bottom: .8em;*/
 
 	/*width: 960px;*/
 	/*max-width: 960px;*/
