@@ -572,6 +572,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	/*margin-bottom: .8em;*/
+
 	/*width: 960px;*/
 	/*max-width: 960px;*/
 	/*min-height: 550px;*/
@@ -641,7 +642,7 @@ nav a.chosen {
 	/*font-size: 0.875em;
 	line-height: 2em;*/
 	background-color: #fff;
-	/*min-height: 60em;*/
+	min-height: 60em;
 	width: 100%;	
 	/*border-right: solid 1px;*/
 	}
@@ -666,7 +667,7 @@ pre {
     background-color: #eee;
 	/*padding: 2em 2em 2em 2em;*/
 	padding-left: 2em;
-	width: 100%
+	width: 80%
 	}
 
 /*.codetext {
