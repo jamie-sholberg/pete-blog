@@ -643,23 +643,22 @@ nav a.chosen {
 	line-height: 2em;*/
 	background-color: #fff;
 	min-height: 60em;
-	width: 100%;
-	
+	width: 100%;	
 	/*border-right: solid 1px;*/
 	}
 
 article {
 	font-size: 0.875em;
 	line-height: 2em;
-	width: 82%;
+	width: 90%;
 	padding-left: 5em;
 	padding-right: 5em;
 	font-family: 'open_sansregular', arial, sans-serif;
-	
-	color: #000;
+	/*color: #000;*/
 	}
 
 pre {
+	word-break: all;
     display: block;
     line-height: 1.8em;
     font-family: 'klartext_monolight', monospace;
@@ -668,7 +667,7 @@ pre {
     background-color: #eee;
 	/*padding: 2em 2em 2em 2em;*/
 	padding-left: 2em;
-	width: 90%
+	width: 80%
 	}
 
 /*.codetext {
@@ -680,7 +679,8 @@ pre {
 article span {display: block;}
 
 h1 {font-size: 2em;
-line-height: 1.5em;}
+	line-height: 1.5em;
+	}
 
  /*.maintext {
 	font-size: 0.875em;
