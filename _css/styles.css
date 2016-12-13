@@ -110,7 +110,7 @@
     }
 
 body {
-	background-color: #fff;
+	background-color: #2F2F2F;
 	font-size: 100%;
 	margin: 0;}
 
@@ -199,7 +199,7 @@ article {
 	}
 
 pre {
-	word-break: all;
+	word-break: keep-all;
     display: block;
     line-height: 1.8em;
     font-family: 'klartext_monolight', monospace;
