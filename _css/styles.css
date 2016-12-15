@@ -181,7 +181,7 @@ nav a.chosen {
 
 #main { 
 	background-color: #fff;
-	min-height: 60em;
+	
 	width: 71%;
 	
 	border-right: solid 1px;
@@ -509,7 +509,7 @@ body {
 	background-color: #fff;
 	margin-right: auto;
 	margin-left: auto;
-	
+	min-height: 550px;
 	width: 100%;
 	}
 
