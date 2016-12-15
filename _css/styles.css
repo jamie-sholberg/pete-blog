@@ -206,7 +206,7 @@ pre {
     background-color: #eee;
 
 	padding-left: 2em;
-	width: 100%
+	max-width: 100%;
 	}
 
 /*.codetext {
@@ -293,67 +293,20 @@ article .rule {
 	color: #414C53;
 }
 
-/*.icon-mail {
-    font-size: 1.5em;
-    color: #000;
-    display: block;
-}
-.icon-twitter2{
-    font-size: 1.5em;
-    color: #000;
-    display: block;}
-
-.icon-linkedin{
-    font-size: 1.5em;
-    color: #000;
-    display: block;
-}
-
-.icon-twitter2:before {
-    content: "\e601";
-    font-size: 1.5em;
-    color: #000;
-    display: block;
-}
-
-.icon-linkedin:before {
-    content: "\e903";
-}
-
-.icon-mail:before {
-    content: "\e600";
-}*/
-
 #social { 
-	/*width: 100px;
-	padding: 0px 10px 20px 10px;*/
-
-	/*margin-right: auto;
-	margin-left: auto;*/
 	font-size: 2em; 
 	color: #797979;
 	}
 
-a.icon-mail {padding-right: 10px;}
+a.icon-mail     {padding-right: 10px;}
 a.icon-twitter2 {padding-right: 10px;}
 
-a.icon-twitter2:hover    {color: #197F11;}
+a.icon-twitter2:hover {color: #197F11;}
 a.icon-mail:hover     {color: #197F11;}
 a.icon-linkedin:hover {color: #197F11;}
 
-a.icon-linkedin:visited {color: #197F11;
-						text-decoration: none;}
+a.icon-linkedin:visited {color: #197F11; text-decoration: none;}
 
-/*.icon-mail:before {
-    content: "\e600";
-}
-.icon-twitter2:before {
-    content: "\e601";
-}
-.icon-linkedin:before {
-    content: "\e903";
-    }
-*/
 .button {
 	display: inline-block;
 	text-align: left;
