@@ -179,18 +179,18 @@ nav a.chosen {
 	color: #008D00;
 	text-decoration: underline;}
 
-/*#main { 
+#main { 
 	background-color: #fff;
 	min-height: 60em;
 	width: 71%;
 	
 	border-right: solid 1px;
-	}*/
+	}
 
 article {
 	font-size: 0.875em;
 	line-height: 2em;
-	width: 80%;
+	width: 100%;
 	padding-left: 5em;
 	padding-right: 5em;
 	font-family: 'open_sansregular', arial, sans-serif;
