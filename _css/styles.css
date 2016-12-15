@@ -190,17 +190,15 @@ nav a.chosen {
 article {
 	font-size: 0.875em;
 	line-height: 2em;
-	width: 82%;
+	width: 80%;
 	padding-left: 5em;
 	padding-right: 5em;
 	font-family: 'open_sansregular', arial, sans-serif;
-	
-	color: #000;
 	}
 
 pre {
-	word-break: break-all;
-    display: block;
+	word-break: normal;
+    /*display: block;*/
     line-height: 1.8em;
     font-family: 'klartext_monolight', monospace;
     /*white-space: pre;*/
@@ -208,7 +206,7 @@ pre {
     background-color: #eee;
 
 	padding-left: 2em;
-	width: 90%
+	width: 100%
 	}
 
 /*.codetext {
