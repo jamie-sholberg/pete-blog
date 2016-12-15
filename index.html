@@ -76,7 +76,7 @@
 
 			</div>
 
-			<div id="main">
+			<!-- <div id="main"> -->
 
 			<article>
 				<h1>Installing OpenSMTPD On FreeBSD</h1>
@@ -417,7 +417,6 @@ New packages to be INSTALLED:
 	libevent2: 2.0.22_1
 
 Number of packages to be installed: 45
-</snip>
 <snip pkg install messages>
 freebsd-update: src component not installed, skipped
 freebsd-update: Looking up update.FreeBSD.org mirrors... 4 mirrors found.
@@ -431,11 +430,11 @@ freebsd-update: Fetching 91 patches.....10....20....30....40....50....60....70..
 freebsd-update: Applying patches... done.
 freebsd-update: 
 freebsd-update: The following files will be updated as part of updating to 10.3-RELEASE-p9:
-freebsd-update: /bin/freebsd-version</snip>
+freebsd-update: /bin/freebsd-version
 <snip lots of update info>
 
 freebsd-update: Installing updates... done.
-freebsd-update: Requesting reboot after installing updates.</snip>
+freebsd-update: Requesting reboot after installing updates.
 <snip>
 
 Waiting (max 60 seconds) for system process `vnlru' to stop...done
@@ -446,7 +445,7 @@ All buffers synced.
 Uptime: 2m13s
 Rebooting...
 cpu_reset: Stopping other CPUs
-</snip>
+
 }
 
 </pre>

@@ -110,7 +110,7 @@
     }
 
 body {
-	background-color: #2F2F2F;
+	background-color: #000;
 	font-size: 100%;
 	margin: 0;}
 
@@ -199,7 +199,7 @@ article {
 	}
 
 pre {
-	word-break: keep-all;
+	word-break: break-all;
     display: block;
     line-height: 1.8em;
     font-family: 'klartext_monolight', monospace;
@@ -571,14 +571,8 @@ body {
 	background-color: #fff;
 	margin-right: auto;
 	margin-left: auto;
-	/*margin-bottom: .8em;*/
-
-	/*width: 960px;*/
-	/*max-width: 960px;*/
-	/*min-height: 550px;*/
+	
 	width: 100%;
-	/*height: 100%;*/
-	/*position: relative;	*/
 	}
 
 #masthead {
@@ -651,7 +645,7 @@ article {
 	background-color: #fff;
 	min-height: 60em;
 	/*width: 100%;*/
-	
+
 	font-size: 0.875em;
 	line-height: 2em;
 	width: 90%;
@@ -662,7 +656,7 @@ article {
 	}
 
 pre {
-	word-break: all;
+	word-break: break-all;
     display: block;
     line-height: 1.8em;
     font-family: 'klartext_monolight', monospace;
