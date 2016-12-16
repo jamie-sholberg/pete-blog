@@ -177,13 +177,12 @@ nav a:hover {
 
 nav a.chosen {
 	color: #008D00;
-	text-decoration: underline;}
+	text-decoration: underline;
+	}
 
 #main { 
 	background-color: #fff;
-	
 	width: 71%;
-	
 	border-right: solid 1px;
 	}
 
