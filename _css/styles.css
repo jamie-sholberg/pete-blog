@@ -122,7 +122,7 @@ body {
 
 	/*width: 960px;*/
 	/*max-width: 960px;*/
-	min-height: 550px;
+	
 	width: 100%;
 	/*height: 100%;*/
 	position: relative;	
@@ -184,6 +184,8 @@ nav a.chosen {
 	background-color: #fff;
 	width: 71%;
 	border-right: solid 1px;
+
+	min-height: 550px;
 	}
 
 article {
