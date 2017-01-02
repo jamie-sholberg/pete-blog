@@ -1,9 +1,9 @@
 <?
 // —— PHP connection components
-define ("DB_USER","jshol16");
-define ("DB_PASSWORD","Madison79!");
-define ("DB_HOST","mysql.jamiesholberg.com");
-define ("DB_NAME","jamiesholberg"); 
+define ("DB_USER","pete16");
+define ("DB_PASSWORD","Petey77!");
+define ("DB_HOST","mysql.nomadlogic.com");
+define ("DB_NAME","nomad"); 
 
 // —— MYSQLi connection method
 $mysqli = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -21,7 +21,7 @@ $query = "
     SELECT
         $field
     FROM
-        jamieContent
+        peteContent
     WHERE
         id = $id
     ";
@@ -41,38 +41,38 @@ if ($result)
 
 }
 
-// function generateAbout()
-// {
+function generateAbout()
+{
 
-// $mysqli = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+$mysqli = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-// $query = "
-//     SELECT
-//         id
-//     FROM
-//         jamieContent
-//     WHERE
-//         type = 'About'
-//     ";
+$query = "
+    SELECT
+        id
+    FROM
+        peteContent
+    WHERE
+        type = 'About'
+    ";
 
-// $rows=mysqli_query($mysqli,$query);
-// $result=mysqli_num_rows($rows);
+$rows=mysqli_query($mysqli,$query);
+$result=mysqli_num_rows($rows);
 
-// if ($result)
-// {
-//     while ($row = mysqli_fetch_array($rows,MYSQLI_NUM))
-//     {
-//         $title = getContent($row[0],"title");
-//         $text = getContent($row[0],"text");
-//         $entry .= "<div class=headline>$title</div><div class=bioText href=$text target=_blank>$text</div>";
-//     }
-//     // typical action
-//     return $entry;
-// }
+if ($result)
+{
+    while ($row = mysqli_fetch_array($rows,MYSQLI_NUM))
+    {
+        $title = getContent($row[0],"title");
+        $text = getContent($row[0],"text");
+        $entry .= "<div class=headline>$title</div><div class=bioText href=$text target=_blank>$text</div>";
+    }
+    // typical action
+    return $entry;
+}
 
-// }
+}
 
-// $blogAbout = generateAbout();
+$blogAbout = generateAbout();
 
 
 // for the header
